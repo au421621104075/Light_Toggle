@@ -1,0 +1,59 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+img {
+    width: 150px;
+    height: auto;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    box-shadow:4px 6px 20px #333;
+}
+
+/* Hover Effect for Images */
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #88481d;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #792a02;
+}
+
+/* Divider Styling */
+hr {
+    border: 1px solid #ccc;
+    margin: 30px 0;
+}
+
+/* Container for Buttons */
+div {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Toggle</title>
+    <link rel="stylesheet" href="light_css.css">
+</head>
+
+<body>
+    <h1>Turn ON/OFF Light</h1>
+
+    <!-- Toggle using buttons -->
+    <img src="turn_off_light.png" id="demo" alt="Light">
+    <div>
+        <button onclick="turn(1)">Turn On</button>
+        <button onclick="turn(0)">Turn Off</button>
+    </div>
+
+    <hr>
+
+    <!-- Toggle by clicking the image (boolean state) -->
+    <img src="turn_off_light.png" id="demos" onclick="turns()" alt="Light Toggle by Boolean">
+
+    <hr>
+
+    <!-- Toggle by clicking the image (using includes method) -->
+    <img src="turn_off_light.png" id="demoss" onclick="turnss()" alt="Light Toggle by Includes">
+
+    <script src="light_js.js"></script>
+</body>
+
+</html>
